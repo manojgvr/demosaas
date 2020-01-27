@@ -1,0 +1,26 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+@mixin mobiotics($data,$fontSize){
+  font-size: $fontSize;
+  font-weight: bold;
+  text-align: center;
+  background-color: $data;
+
+}
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  border : 1px solid;
+   .container {
+     h1 {
+       text-align:  left;
+     }
+     @include mobiotics(yellow,30px);
+       table {
+          border : 1px solid;
+          @include mobiotics(green,15px);
+
+       }     
+   }
+}

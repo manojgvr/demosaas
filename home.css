@@ -1,0 +1,17 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+  border: 1px solid; }
+  body .container {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    background-color: yellow; }
+    body .container h1 {
+      text-align: left; }
+    body .container table {
+      border: 1px solid;
+      font-size: 15px;
+      font-weight: bold;
+      text-align: center;
+      background-color: green; }
